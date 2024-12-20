@@ -2,8 +2,6 @@ from django.shortcuts import render, get_object_or_404
 from django.utils.timezone import now
 from .models import Post, Category
 
-from .models import Post, Category
-
 
 def index(request):
     posts = (
