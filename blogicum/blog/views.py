@@ -1,4 +1,3 @@
-from django.http import HttpResponseNotFound, Http404
 from django.shortcuts import render, get_object_or_404
 from django.utils.timezone import now
 from .models import Post, Category
